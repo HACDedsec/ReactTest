@@ -1,8 +1,8 @@
 import React from "react";
-// import DoughnutChart from './DoughnutChart';
 import AdsInsightsTable from "./AdsTable";
 import { Grid } from "@mui/material";
 import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import DonutChart from "./Chart";
 
 const Dashboard = () => {
   return (
@@ -50,7 +50,7 @@ const Dashboard = () => {
                   </div>
                 </Card.Header>
                 <Card.Body className="text-center">
-                  <h2>Doughnut Chart</h2>
+                  <DonutChart />
                 </Card.Body>
               </Card>
             </Col>

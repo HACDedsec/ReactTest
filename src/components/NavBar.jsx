@@ -26,7 +26,7 @@ const NavBar = () => {
               />
             </IconButton>
             <div style={{ marginLeft: "auto" }}>
-              <Link to="/dashboard">
+              <Link to="/">
                 <Button color="inherit" style={{ color: "white" }}>
                   Dashboard
                 </Button>

@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/" element={<Dashboard />} />
           <Route path="/create-ads" element={<CreateAds />} />
           <Route path="/form/:selectedCard" element={<Form />} />
         </Routes>
