@@ -17,9 +17,16 @@ const DonutChart = () => {
       },
     ],
   };
+  const options = {
+    plugins: {
+      legend: {
+        position: "right", // Set legend position to right
+      },
+    },
+  };
   return (
     <div style={{ height: "370px", width: "370px" }}>
-      <Doughnut data={data} />
+      <Doughnut data={data} options={options} />
     </div>
   );
 };
